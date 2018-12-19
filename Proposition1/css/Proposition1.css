@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -1939,8 +1939,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(4, 9, 30, 0.5);
   transition: all 0.5s;
+  color:red;
+}
+#header.header-scrolled a:hover{
+  color:#fab700;
 }
 
 @media (max-width: 673px) {
@@ -2061,7 +2065,18 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.nav-menu a:hover {
+  padding: 6px 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: #FAB700;
+  font-weight: 400;
+  font-size: 18px;
   text-transform: uppercase;
   outline: none;
 }
@@ -2247,7 +2262,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 40px;
   padding-right: 40px;
   border: none;
-  color: #fff;
+  color: #000;
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -2259,6 +2274,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
   text-transform: uppercase;
   position: relative;
+  top: 20px;
 }
 
 .primary-btn:focus {
@@ -3427,3 +3443,32 @@ body.mobile-nav-active #mobile-nav-toggle {
                End Blog Details  Page style
 ################
 */
+#alert{
+  color:#FAB700;
+  font-size: 45px;
+}
+#introText{
+  font-size: 20px;
+  color: white;
+}
+.intro{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#logo{
+  width: 40%;
+  padding-top: 10px;
+}
+#home{
+  min-height: 950px;
+}
+#allHomeText{
+  margin-top: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.imgPresta{
+  width:300px;
+  height: 200px;
+}
