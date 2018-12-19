@@ -16,6 +16,60 @@
     padding-bottom: 20px;
 }
 
-.clientSpace:hover{
-    background: blue;
+
+.clientSpace {
+  outline: none;
+  border: none;
+  padding: 20px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #000;
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+}
+
+.one {
+  border-color: #000;
+  overflow: hidden;
+  color: #000;
+}
+.one .insider {
+  background-color: #fff;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  left: -835px;
+  transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+}
+.one:hover {
+  background-color: #924B1D;
+  border-color: #fff;
+  color: #fff;
+}
+.one:hover .insider {
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  left: 835px;
+}
+
+.post-entry .display-tc{
+    text-align: left;
+}
+
+#fh5co-page{
+    background: #F2EBE6;
 }
