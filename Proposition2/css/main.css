@@ -9,3 +9,13 @@
 .fh5co-logo img{
     max-width: 100%
 }
+
+.clientSpace{
+    border: 2px black solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clientSpace:hover{
+    background: blue;
+}
